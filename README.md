@@ -1,5 +1,17 @@
 ## Slam Toolbox
 
+## Agora fork of slam_toolbox (lifecycle)
+
+> [!NOTE]
+> This repository is a copy of [kei1107/slam_toolbox](https://github.com/kei1107/slam_toolbox), branch `ros2-lifecycle`, and contains **no Agora changes**. That work was later merged upstream in [SteveMacenski/slam_toolbox#561](https://github.com/SteveMacenski/slam_toolbox/pull/561). Future updates will most likely come directly from [SteveMacenski/slam_toolbox](https://github.com/SteveMacenski/slam_toolbox).
+
+| | |
+|---|---|
+| Source | [kei1107/slam_toolbox](https://github.com/kei1107/slam_toolbox), branch `ros2-lifecycle` (converts the nodes to ROS 2 lifecycle nodes) |
+| Base | upstream [`ros2`](https://github.com/SteveMacenski/slam_toolbox/tree/ros2) at [`73afa48`](https://github.com/SteveMacenski/slam_toolbox/commit/73afa48) (2022-11-14, `2.6.0`) + 38 lifecycle commits, tip `027cd7e` |
+| Upstream status | Squash-merged as [`de13553`](https://github.com/SteveMacenski/slam_toolbox/commit/de13553) (#561, 2024-01-05). Built in from [`jazzy`](https://github.com/SteveMacenski/slam_toolbox/tree/jazzy) onward. For Humble it's available in [`humble_lifecycle`](https://github.com/SteveMacenski/slam_toolbox/tree/humble_lifecycle) (#767). |
+| Future | Switch to upstream SteveMacenski/slam_toolbox with the future ROS2 migration. |
+
 | DockerHub  | [![Build Status](https://img.shields.io/docker/cloud/build/stevemacenski/slam-toolbox.svg?label=build)](https://hub.docker.com/r/stevemacenski/slam-toolbox) | [![Build Status](https://img.shields.io/docker/pulls/stevemacenski/slam-toolbox.svg?maxAge=2592000)](https://hub.docker.com/r/stevemacenski/slam-toolbox) |
 |-----|----|----|
 | **Build Farm** | [![Build Status](http://build.ros2.org/job/Ddev__slam_toolbox__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/job/Ddev__slam_toolbox__ubuntu_bionic_amd64/) | N/A |
